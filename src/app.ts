@@ -1,7 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
-const cors = require('cors');
+// const cors = require('cors');
 
 const routes = require('./routes/index.ts');
 
@@ -9,7 +9,7 @@ const app = express();
 const { PORT = 3002 } = process.env;
 const { errorHandler } = require('./middleware/error-handler.ts');
 
-app.use('*', cors());
+// app.use('*', cors());
 
 app.use(helmet());
 app.use(bodyParser.json());
