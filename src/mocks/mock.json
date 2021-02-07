@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "task": "Build a house",
+    "date": "",
+    "finished": "",
+    "status": "todo"
+  },
+  {
+    "id": 2,
+    "task": "Plant a tree",
+    "date": "",
+    "finished": "",
+    "status": "todo"
+  },
+  {
+    "id": 3,
+    "task": "Go to grocery",
+    "date": "2021-02-07T19:24:00",
+    "finished": "",
+    "status": "progress"
+  },
+  {
+    "id": 4,
+    "task": "Take out the trash",
+    "date": "2021-02-07T12:20:00",
+    "finished": "2021-02-07T12:55:00",
+    "status": "done"
+  },
+  {
+    "id": 5,
+    "task": "Walk the dog",
+    "date": "2021-02-07T20:00:00",
+    "finished": "2021-02-07T22:44:00",
+    "status": "done"
+  }
+]
