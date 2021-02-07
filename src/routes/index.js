@@ -1,8 +1,8 @@
 const router = require('express').Router();
 const {
   getData, createTask, startTask, finishTask,
-} = require('../controllers/kanban.ts');
-const NotFoundErr = require('../errors/not-found.ts');
+} = require('../controllers/kanban');
+const NotFoundErr = require('../errors/not-found');
 
 router.get('/kanban', getData);
 router.post('/kanban', createTask);
