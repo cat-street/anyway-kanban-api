@@ -3,7 +3,7 @@
 
 A sample Node/Express REST API (read only, no database) for [Anyway Kanban project](https://github.com/cat-street/anyway-kanban). JavaScript version.
 
-* Live version - [https://api.anyway.catlogic.ru/](https://api.anyway.catlogic.ru/)
+* API:
 
     * GET /kanban - get tasks
     * POST /kanban - create a task
